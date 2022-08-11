@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".GameActivity">
+
+    <TextView
+        android:id="@+id/text_attempts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:textSize="25dp"
+        android:text="Vidas restantes: %1$d"/>
+
+    <TextView
+        android:id="@+id/text_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:textSize="25dp"
+        android:text="Puntaje actual: %1$d"/>
+
+    <TextView
+        android:id="@+id/text_operation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/plus_operation"
+        android:textSize="30dp"
+        android:layout_marginBottom="30dp"
+        />
+
+    <EditText
+        android:id="@+id/edit_text_answer"
+        android:layout_width="150dp"
+        android:layout_height="60dp"/>
+    <Button
+        android:id="@+id/checker_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="Revisar"/>
+
+    <Button
+        android:id="@+id/continue_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Continuar"/>
+
+
+
+
+</LinearLayout>

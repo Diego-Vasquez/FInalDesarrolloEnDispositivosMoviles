@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">PracticaCalificadaN05</string>
+
+    <!-- Main layout-->
+    <string name="title">Mi juego de matemática</string>
+    <string name="plus">+</string>
+    <string name="substraction">-</string>
+    <string name="dot">x</string>
+
+    <!-- Second layaout -->
+
+    <string name="plus_operation">%1$d + %2$d =</string>
+    <string name="subst_operation">%1$d - %2$d =</string>
+    <string name="mult_operation">%1$d x %2$d =</string>
+    
+    
 </resources>
