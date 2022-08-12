@@ -12,6 +12,9 @@
     <string name="plus_operation">%1$d + %2$d =</string>
     <string name="subst_operation">%1$d - %2$d =</string>
     <string name="mult_operation">%1$d x %2$d =</string>
-    
-    
+
+    <string name="attempts_text">Vidas restantes: %1$d</string>
+    <string name="score_text">Puntaje actual: %1$d</string>
+
+
 </resources>

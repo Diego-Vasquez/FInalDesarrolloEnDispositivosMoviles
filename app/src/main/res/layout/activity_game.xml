@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="30dp"
         android:textSize="25dp"
-        android:text="Vidas restantes: %1$d"/>
+        android:text="@string/attempts_text"/>
 
     <TextView
         android:id="@+id/text_score"
@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="30dp"
         android:textSize="25dp"
-        android:text="Puntaje actual: %1$d"/>
+        android:text="@string/score_text"/>
 
     <TextView
         android:id="@+id/text_operation"
