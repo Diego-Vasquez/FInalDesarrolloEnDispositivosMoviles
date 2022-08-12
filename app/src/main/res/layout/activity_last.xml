@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_finished_game_activity"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".FinishesGameActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/anton_regular"
+        android:text="@string/finished_game_win"
+        android:textSize="35sp" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginBottom="25dp"
+        android:contentDescription="@string/app_name"
+        app:srcCompat="@drawable/trophy" />
+
+    <TextView
+        android:id="@+id/text_view_final_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/anton_regular"
+        android:text="@string/last_score_text"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/text_view_final_attempts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/anton_regular"
+        android:text="@string/last_score_text"
+        android:textSize="25sp"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_repite"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:text="Seguir jugando"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="40dp" />
+
+        <Button
+            android:id="@+id/button_continue"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="continuar"
+            android:layout_toEndOf="@id/button_repite" />
+
+    </RelativeLayout>
+
+</LinearLayout>

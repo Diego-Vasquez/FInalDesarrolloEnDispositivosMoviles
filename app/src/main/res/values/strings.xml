@@ -16,5 +16,18 @@
     <string name="attempts_text">Vidas restantes: %1$d</string>
     <string name="score_text">Puntaje actual: %1$d</string>
 
+    <string name="bad_imput">Por favor, ingresa un número</string>
+    <string name="press_continue">Ya haz acertado, presiona el botón de continuar</string>
+    <string name="continue_text">Acertaste, presiona el botón de continuar</string>
+
+    <!-- last layout-->
+
+    <string name="last_score_text">Puntaje: %1$d</string>
+    <string name="last_attempts_text">Puntaje: %1$d</string>
+    <string name="finished_game_win">Ganaste</string>
+    <string name="finished_game_lost">Perdiste</string>
+
+
+
 
 </resources>
